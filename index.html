@@ -165,7 +165,7 @@
     </div>
 
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated November 10, 2026</p>
+    <p class="updated">Last updated November 12, 2026</p>
 
     <p class="lede">
       JP Dominoes Scorekeeper (formerly Tranque) is a scorekeeper for
@@ -180,7 +180,7 @@
       <ul>
         <li>No account or sign-in. No advertising, no in-app purchases, no advertising identifier, no tracking, and no data sold to anyone.</li>
         <li>Player names, player photos, scores, game history and settings are stored on your device.</li>
-        <li>Data leaves your device only when you use <strong>Host a game / Join Game</strong> (round scores, through our relay), <strong>music search</strong> (your search, to YouTube or Spotify), <strong>QR scanning</strong> (diagnostics to Google ML Kit), or a <strong>JP Dominoes table</strong> on your Wi-Fi.</li>
+        <li>Data leaves your device only when you use <strong>Host a game / Join Game</strong> (round scores and, when you host, the team names, through our relay), <strong>music search</strong> (your search, to YouTube or Spotify), <strong>QR scanning</strong> (diagnostics to Google ML Kit), or a <strong>JP Dominoes table</strong> on your Wi-Fi.</li>
       </ul>
     </section>
 
@@ -211,9 +211,13 @@
         or Tranque, and when) to our relay server, together with a random
         game identifier and the installation identifier above, so every
         device on that code shows the same score. Anyone who has the code can
-        see the rounds and add to them. Player names, photos and game history
-        are not sent to the relay. The relay runs on Cloudflare, and each
-        shared game is deleted from it 24 hours after the game starts.
+        see the rounds and add to them. When you host, the app also sends the
+        game's setup so that players who join see the same table: the team
+        names as typed (player names only, no photos or profiles), the target
+        score, the game mode and the series score. Player photos, profiles and
+        game history are not sent to the relay. The relay runs on Cloudflare,
+        and each shared game is deleted from it 24 hours after the game
+        starts.
       </p>
     </section>
 
